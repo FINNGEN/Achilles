@@ -76,6 +76,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 431,0,,Proportion of people with at least one condition_occurrence record outside a valid observation period,Proportion,Number of people with a condition_occurrence record outside a valid observation period,Number of people in condition_occurrence,,,0,Observation Period
 432,0,,Proportion of condition_occurrence records outside a valid observation period,Proportion,Number of condition_occurrence records outside a valid observation period,Number of condition_occurrence records,,,0,Observation Period
 440,0,,"Number of persons with at least one condition occurrence, by condition_source_concept_id",condition_source_concept_id,,,,,1,Condition Occurrence
+444,0,,"Number of persons with at least one condition occurrence, by condition_source_concept_id by calendar year by gender by age decile",condition_source_concept_id,calendar year,gender_concept_id,age decile,,1,Condition Occurrence
 500,0,,"Number of persons with death, by cause_concept_id",cause_concept_id,,,,,1,Death
 501,0,,"Number of records of death, by cause_concept_id",cause_concept_id,,,,,1,Death
 502,0,,Number of persons by death month,calendar month,,,,,1,Death
@@ -112,6 +113,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 631,0,,Proportion of people with at least one procedure_occurrence record outside a valid observation period,Proportion,Number of people with a procedure_occurrence record outside a valid observation period,Number of people in procedure_occurrence,,,0,Observation Period
 632,0,,Proportion of procedure_occurrence records outside a valid observation period,Proportion,Number of records in procedure_occurrence outside a valid observation period,Number of procedure_occurrence records,,,0,Observation Period
 640,0,,"Number of persons with at least one procedure occurrence, by procedure_source_concept_id",procedure_source_concept_id,,,,,1,Procedure Occurrence
+644,0,,"Number of persons with at least one procedure occurrence, by procedure_source_concept_id by calendar year by gender by age decile",procedure_source_concept_id,calendar year,gender_concept_id,age decile,,1,Procedure Occurrence
 691,0,,Percentage of total persons that have at least x procedures,procedure_concept_id,procedure_person,,,,1,Procedure Occurrence
 700,0,,"Number of persons with at least one drug exposure, by drug_concept_id",drug_concept_id,,,,,1,Drug Exposure
 701,0,,"Number of drug exposure records, by drug_concept_id",drug_concept_id,,,,,1,Drug Exposure
@@ -135,6 +137,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 731,0,,Proportion of people with at least one drug_exposure record outside a valid observation period,Proportion,Number of people with a drug_exposure record outside a valid observation period,Number of people in drug_exposure,,,0,Observation Period
 732,0,,Proportion of drug_exposure records outside a valid observation period,Proportion,Number of records in drug_exposure outside a valid observation period,Number of drug_exposure records,,,0,Observation Period
 740,0,,"Number of persons with at least one drug exposure, by drug_source_concept_id",drug_source_concept_id,,,,,1,Drug Exposure
+744,0,,"Number of persons with at least one drug exposure, by drug_source_concept_id by calendar year by gender by age decile",drug_source_concept_id,calendar year,gender_concept_id,age decile,,1,Drug Exposure
 791,0,,Percentage of total persons that have at least x drug exposures,drug_concept_id,drug_person,,,,1,Drug Exposure
 800,0,,"Number of persons with at least one observation occurrence, by observation_concept_id",observation_concept_id,,,,,1,Observation
 801,0,,"Number of observation occurrence records, by observation_concept_id",observation_concept_id,,,,,1,Observation
@@ -161,6 +164,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 831,0,,Proportion of people with at least one observation record outside a valid observation period,Proportion,Number of people with a observation record outside a valid observation period,Number of people in observation,,,0,Observation Period
 832,0,,Proportion of observation records outside a valid observation period,Proportion,Number of records in observation outside a valid observation period,Number of observation records,,,0,Observation Period
 840,0,,"Number of persons with at least one observation occurrence, by observation_source_concept_id",observation_source_concept_id,,,,,1,Observation
+844,0,,"Number of persons with at least one observation occurrence, by observation_source_concept_id by calendar year by gender by age decile",observation_source_concept_id,calendar year,gender_concept_id,age decile,,1,Observation
 891,0,,Percentage of total persons that have at least x observations,observation_concept_id,observation_person,,,,1,Observation
 900,0,,"Number of persons with at least one drug era, by drug_concept_id",drug_concept_id,,,,,1,Drug Era
 901,0,,"Number of drug era records, by drug_concept_id",drug_concept_id,,,,,1,Drug Era
@@ -279,6 +283,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 1832,0,,Proportion of measurement records outside a valid observation period,Proportion,Number of records in measurement outside a valid observation period,Number of measurement records,,,0,Observation Period
 1833,0,,Proportion of measurement records inside a valid observation period and without a value,measurement_concept_id,Number of measurement records with no value for the given measurement_concept_id,proportion,,,0,Measurement
 1840,0,,"Number of persons with at least one measurement occurrence, by measurement_source_concept_id",measurement_source_concept_id,,,,,1,Measurement
+1844,0,,"Number of persons with at least one mesurement  occurrence, by measurement_source_concept_id by calendar year by gender by age decile",measurement_source_concept_id,calendar year,gender_concept_id,age decile,,1,Measurement
 1891,0,,Percentage of total persons that have at least x measurements,measurement_concept_id,measurement_person,,,,1,Measurement
 1900,0,,"Source values mapped to concept_id 0 by table, by column, by source_value",table_name,column_name,source_value,,,1,Completeness
 2000,0,,Number of patients with at least 1 Dx and 1 Rx,,,,,,1,Completeness
@@ -299,6 +304,7 @@ ANALYSIS_ID,DISTRIBUTION,DISTRIBUTED_FIELD,ANALYSIS_NAME,STRATUM_1_NAME,STRATUM_
 2131,0,,Proportion of people with at least one device_exposure record outside a valid observation period,Proportion,Number of people with a device_exposure record outside a valid observation period,Number of people in device_exposure,,,0,Observation Period
 2132,0,,Proportion of device_exposure records outside a valid observation period,Proportion,Number of records in device_exposure outside a valid observation period,Number of device_exposure records,,,0,Observation Period
 2140,0,,"Number of persons with at least one device exposure, by device_source_concept_id",device_source_concept_id,,,,,1,Completeness
+2144,0,,"Number of persons with at least one device exposure, by device_source_concept_id by calendar year by gender by age decile",device_source_concept_id,calendar year,gender_concept_id,age decile,,1,Device Exposure
 2191,0,,Percentage of total persons that have at least x device exposures,device_concept_id,device_person,,,,1,Device Exposure
 2200,0,,Number of persons with at least one note by  note_type_concept_id,note_type_concept_id,,,,,1,Note
 2201,0,,"Number of note records, by note_type_concept_id",note_type_concept_id,,,,,1,Note
