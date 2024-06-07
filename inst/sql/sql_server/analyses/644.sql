@@ -29,7 +29,7 @@ GROUP BY
 	FLOOR((YEAR(po.procedure_date) - p.year_of_birth) / 10)
 )
 SELECT
-	604 AS analysis_id,
+	644 AS analysis_id,
 	CAST(stratum_1 AS VARCHAR(255)) AS stratum_1,
 	CAST(stratum_2 AS VARCHAR(255)) AS stratum_2,
 	CAST(stratum_3 AS VARCHAR(255)) AS stratum_3,

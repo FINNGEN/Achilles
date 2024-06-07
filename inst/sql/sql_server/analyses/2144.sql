@@ -29,7 +29,7 @@ GROUP BY
 	FLOOR((YEAR(de.device_exposure_start_date) - p.year_of_birth) / 10)
 )
 SELECT
-	2104 AS analysis_id,
+	2144 AS analysis_id,
 	CAST(stratum_1 AS VARCHAR(255)) AS stratum_1,
 	CAST(stratum_2 AS VARCHAR(255)) AS stratum_2,
 	CAST(stratum_3 AS VARCHAR(255)) AS stratum_3,
